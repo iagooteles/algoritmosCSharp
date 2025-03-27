@@ -56,3 +56,8 @@ dotnet run
     
     Quando usar? => Quando a lista é pequena ou quando os elementos não estão ordenados;
 
+
+### Estrutura de dados
+
+- Pilha: 
+
