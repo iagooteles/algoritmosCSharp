@@ -31,6 +31,7 @@ dotnet run
 
 
 
+
 ### Ordenação
 
 - **Bubble sort**: Esse algoritmo percorre o array várias vezes, comparando elementos adjacentes e trocando-os se estiverem na ordem errada.
