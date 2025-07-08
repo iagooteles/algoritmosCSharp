@@ -17,7 +17,8 @@ class Program
         Console.WriteLine("__________ Ordenação ______________");
 
         // BubbleSort.Execute();
-        SelectionSort.Execute();
+        // SelectionSort.Execute();
+        InsertionSort.Execute();
 
         Console.WriteLine("__________ END ordenação ______________");
 

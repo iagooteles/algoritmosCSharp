@@ -33,7 +33,7 @@ dotnet run
 
 ### Ordenação
 
-- Bubble sort: Esse algoritmo percorre o array várias vezes, comparando elementos adjacentes e trocando-os se estiverem na ordem errada.
+- **Bubble sort**: Esse algoritmo percorre o array várias vezes, comparando elementos adjacentes e trocando-os se estiverem na ordem errada.
     
     Na função BubbleSort, o primeiro loop externo controla o número de passagens pelo array, e o loop interno compara e troca elementos adjacentes.
     
@@ -43,16 +43,22 @@ dotnet run
 
     O algoritmo compara dois elementos consecutivos no array e troca-os se estiverem na ordem errada.
 
-- Selection Sort:  É um algoritmo de ordenação simples, porém ineficiente para grandes conjuntos de dados. Ele funciona dividindo o array em duas partes: a parte ordenada (inicialmente vazia) e a parte não ordenada. A cada iteração, ele encontra o menor elemento da parte não ordenada e o move para a parte ordenada.
+- **Selection Sort**: É um algoritmo de ordenação simples, porém ineficiente para grandes conjuntos de dados. Ele funciona dividindo o array em duas partes: a parte ordenada (inicialmente vazia) e a parte não ordenada. A cada iteração, ele encontra o menor elemento da parte não ordenada e o move para a parte ordenada.
     
     O algoritmo encontra o menor (ou maior) elemento no array e troca-o com o primeiro elemento não ordenado.
     Ele faz isso para o restante dos elementos, de modo que a cada passagem o próximo menor (ou maior) elemento é colocado na posição correta.
 
+- **Insertion sort**: Esse algoritmo constrói o array ordenado gradualmente, inserindo um elemento por vez na posição correta.
 
+    Na função `InsertionSort`, o loop externo percorre cada elemento do array a partir do segundo elemento (índice 1). O valor atual é armazenado como chave, e o loop interno compara essa chave com os elementos anteriores, movendo-os uma posição à frente se forem maiores.
+
+    Esse processo continua até que a posição correta para a chave seja encontrada, onde ela é então inserida. O algoritmo simula o modo como organizamos cartas na mão: pegamos uma carta e a colocamos no lugar certo comparando com as que já temos.
+
+    Ao contrário do Bubble Sort, o Insertion Sort é mais eficiente para arrays parcialmente ordenados, pois reduz o número de comparações e trocas necessárias.
 
 ### Busca
 
-- Busca linear (ou busca sequencial): Algoritmo simples para buscar um elemento em um array ou lista. Ele percorre a estrutura de dados elemento por elemento até encontrar o valor desejado ou até atingir o final da lista.
+- **Busca linear** (ou busca sequencial): Algoritmo simples para buscar um elemento em um array ou lista. Ele percorre a estrutura de dados elemento por elemento até encontrar o valor desejado ou até atingir o final da lista.
     
     Quando usar? => Quando a lista é pequena ou quando os elementos não estão ordenados;
 
