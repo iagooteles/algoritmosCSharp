@@ -66,5 +66,10 @@ dotnet run
 
 ### Estrutura de dados
 
-- Pilha: 
+- Pilha: Estrutura de dados linear do tipo LIFO (Last In, First Out), onde o último elemento inserido é o primeiro a ser removido.
+Exemplos de uso: histórico de navegação, desfazer ações, chamadas de função (recursão).
+Métodos principais: Push, Pop, Topo, Exibir.
 
+- Fila (Queue): Estrutura de dados linear do tipo FIFO (First In, First Out), onde o primeiro elemento inserido é o primeiro a ser removido.
+Exemplos de uso: gerenciamento de processos, filas de impressão, atendimento em geral.
+Métodos principais: Enfileirar, Desenfileirar, Frente(ExibirPrimeiroItem), Exibir.

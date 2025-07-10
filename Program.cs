@@ -1,4 +1,5 @@
 ﻿using System;
+using algoritmos;
 using Algoritmos;
 
 class Program
@@ -18,7 +19,7 @@ class Program
 
         // BubbleSort.Execute();
         // SelectionSort.Execute();
-        InsertionSort.Execute();
+        // InsertionSort.Execute();
 
         Console.WriteLine("__________ END ordenação ______________");
 
@@ -44,6 +45,23 @@ class Program
         // Console.WriteLine("___________ END Pilha _____________");
 
 
+        // Console.WriteLine("___________ Fila _____________");
+
+        // Fila fila = new Fila(10);
+
+        // fila.Enfileirar(20);
+        // fila.Enfileirar(10);
+        // fila.Enfileirar(6);
+        // fila.Enfileirar(78);
+        // fila.Exibir();
+
+        // Console.WriteLine("_____________________________");
+
+        // fila.Desinfileirar();
+        // fila.Desinfileirar();
+        // fila.Exibir();
+
+        // Console.WriteLine("___________ END Fila _____________");
 
     }
 }
