@@ -7,21 +7,21 @@ class Program
     static void Main()
     {
 
-        // Console.WriteLine("__________ Busca ______________");
+        Console.WriteLine("__________ Busca ______________");
 
         // BuscaLinear.Execute();
+        BuscaBinaria.Execute();
+        Console.WriteLine("__________ END Busca ______________");
 
-        // Console.WriteLine("__________ END Busca ______________");
 
 
-
-        Console.WriteLine("__________ Ordenação ______________");
+        // Console.WriteLine("__________ Ordenação ______________");
 
         // BubbleSort.Execute();
         // SelectionSort.Execute();
         // InsertionSort.Execute();
 
-        Console.WriteLine("__________ END ordenação ______________");
+        // Console.WriteLine("__________ END ordenação ______________");
 
 
 

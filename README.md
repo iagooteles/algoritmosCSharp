@@ -5,17 +5,17 @@ Este repositório contém implementações de diversos algoritmos clássicos em 
 ### Ordenação
     Bubble Sort     ✔
     Selection Sort  ✔
-    Insertion Sort
+    Insertion Sort  ✔
     Merge Sort
     Quick Sort 
 
 ### Busca
     Busca Linear    ✔
-    Busca Binária
+    Busca Binária   ✔
 
 ### Estruturas de Dados
     Pilha (Stack)   ✔
-    Fila (Queue)
+    Fila (Queue)    ✔
     Lista Encadeada (Linked List)
     Árvore Binária de Busca (BST)
     Tabela Hash
@@ -62,6 +62,13 @@ dotnet run
 - **Busca linear** (ou busca sequencial): Algoritmo simples para buscar um elemento em um array ou lista. Ele percorre a estrutura de dados elemento por elemento até encontrar o valor desejado ou até atingir o final da lista.
     
     Quando usar? => Quando a lista é pequena ou quando os elementos não estão ordenados;
+
+- **Busca binária**:Algoritmo eficiente de busca que funciona apenas em arrays ordenados. A ideia é dividir o array ao meio a cada iteração, reduzindo o intervalo de busca pela metade.
+O algoritmo compara o elemento do meio com o valor desejado. Se forem iguais, a posição é retornada. Se o valor desejado for menor, a busca continua na metade esquerda; se for maior, na metade direita.
+Esse processo continua até encontrar o elemento ou até que o intervalo de busca se torne inválido.
+    Quando usar? => Quando o array está ordenado e é necessário um algoritmo mais rápido que a busca linear.
+A busca binária exige que o array esteja ordenado. Certifique-se disso sempre que aplicar.
+Retorna o índice do elemento encontrado ou -1 se não existir no array.
 
 
 ### Estrutura de dados
